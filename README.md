@@ -18,7 +18,7 @@ Because the extension uses ChatGPT API, the OpenAI API key must be written at Co
 
 ## Installation
  
-The folder codexity contains the extension files. The folder Codexity_main contains all the necessary Python files to run the model and do the repair. These two folders can be on different places.
+The folder codexity contains the extension files. The folder Codexity_main contains all the necessary Python files to run the model and do the repair. These two folders can be in different places.
 
 ## Model Installation
 
@@ -34,7 +34,7 @@ The user needs to first launch the extension. For that, the user needs to open t
 
  
 ## Dataset
-
+The Data folder contains the 90 prompts and the vulnerable codes generated from them. Inside the vul_code folder, the sub-folders contain the vulnerable codes. The name of each file has the vulnerabilities detected. It can be the CWE when detected by CppCheck or the name when detected by Infer.
 
 
 
